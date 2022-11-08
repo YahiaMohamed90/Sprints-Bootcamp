@@ -1,0 +1,127 @@
+    1  hostname
+    2  cat /etc/host
+    3  cat /etc/hostname 
+    4  vim /etc/hostname 
+    5  cat /etc/hostname \
+    6  cat /etc/hostname 
+    7  ls
+    8  cd git_project1 
+    9  ls
+   10  git log
+   11  history
+   12  clear
+   13  history
+   14  clear
+   15  git log
+   16  git revert 0bf3a7a1a22ec54afb33fe791ba3d6eaa7366df9
+   17  git merge --abort
+   18  git revert 0bf3a7a1a22ec54afb33fe791ba3d6eaa7366df9
+   19  git merge --abort
+   20  git status
+   21  git add .
+   22  git status
+   23  git log
+   24  git revert 0bf3a7a1a22ec54afb33fe791ba3d6eaa7366df9
+   25  vi test.py
+   26  git status
+   27  git add .
+   28  git status
+   29  git commit -m "third commit"
+   30  git status
+   31  git status\
+   32  git status
+   33  git log
+   34  git revert 9e399cac5ea1acdf56cb50f96f1c90843563277d
+   35  git log
+   36  git branch feature1
+   37  git branch 
+   38  git cheackout feature1
+   39  git checkout feature1
+   40  ls
+   41  vi test.py
+   42  git add .
+   43  git commit -m "branch commit"
+   44  git log
+   45  git checkout master
+   46  git checkout feature
+   47  git checkout feature1
+   48  vi test.py
+   49  git add .
+   50  git commit -m "branch commit2"
+   51  git status
+   52  clear
+   53  git checkout master
+   54  vi test.py
+   55  git merge feature1
+   56  vi test.py
+   57  git branch
+   58  cd ..
+   59  git clone
+   60  git clone https://github.com/YahiaMohamed90/Sprints-Bootcamp
+   61  ls
+   62  cd Sprints-Bootcamp
+   63  ls
+   64  mkdir SWCM-Tasks
+   65  ls
+   66  git add .
+   67  git commit " add new dirctory swcm"
+   68  git commit -m " add new dirctory swcm"
+   69  git status
+   70  git log
+   71  git branch
+   72  git branche swcm
+   73  git branch swcm
+   74* 
+   75  git branch 
+   76  git checkout branch
+   77  git checkout branch swcm
+   78  git checkout swcm
+   79  clear
+   80  ls
+   81  git status
+   82  git add .
+   83  git status
+   84  git push
+   85  git push --set-upstream origin swcm
+   86  git status
+   87  git add .
+   88  git status
+   89  git push --set-upstream origin swcm
+   90  open ssh
+   91  clear
+   92  ls
+   93  cd SWCM-Task
+   94  cd SWCM-Tasks
+   95  touc test
+   96  touch test
+   97  git add .
+   98  git status
+   99  git commit -m " add new file in swcm"
+  100  git status
+  101  git log
+  102  cd ..
+  103  ls
+  104  git push --set-upstream origin swcm
+  105  cd ..
+  106  git push --set-upstream origin swcm
+  107  cd Sprint-Bootcamp
+  108  ls
+  109  cd centos
+  110  ls
+  111  cd Sprints-Bootcamp
+  112  git push --set-upstream origin swcm
+  113  git status\
+  114  git status
+  115  cd centos
+  116  clear
+  117  head -20 histroy
+  118  histro
+  119  histroy
+  120  head -20 history
+  121   history
+  122  hisory | >> git-commands
+  123  history | >> git-commands
+  124  cat git commands
+  125  cat git-commands
+  126* 
+  127  history  &> git-commands
