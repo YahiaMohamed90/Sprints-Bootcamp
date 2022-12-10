@@ -1,0 +1,41 @@
+version: "3.3"
+
+services:
+  db-mysql:
+    container_name: mysql-flask
+    build:
+      context: .
+      dockerfile: Dockerfile-mysql
+    restart: always
+    volumes:
+      - db-volume:/var/lib/mysql
+  flask-app:
+    container_name: flask-app
+    build:
+      context: .
+      dockerfile: Dockerfile-app
+    depends_on:
+      - db-mysql
+    ports:
+      - 8181:8181
+    restart: always
+    networks:
+      my-network:
+        aliases:
+          - flask-app
+         - flask-app
+  nginx:
+    image: nginx:1.15
+    restart: always
+    volumes:
+    ports:
+      -  80:80
+    container_name: nginx-flask
+    depends_on:
+      - flask-app
+
+
+volumes:
+  db-volume:
+networks:
+   my-network:
