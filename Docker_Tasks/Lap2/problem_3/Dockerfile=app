@@ -1,0 +1,11 @@
+FROM python:3.8-alpine
+
+ENV CONTAINER_HOME=/var/www
+
+WORKDIR CONTAINER_HOME
+
+COPY source_code/ CONTAINER_HOME
+
+RUN pip install -r CONTAINER_HOME requirements.txt
+
+
