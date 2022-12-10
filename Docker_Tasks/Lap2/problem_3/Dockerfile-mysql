@@ -1,0 +1,8 @@
+FROM mysql
+
+ENV MYSQL_DATABASE flask-pr
+ENV MYSQL_USER yahia
+ENV MYSQL_PASSWORD 12345
+ENV MYSQL_RANDOM_ROOT_PASSWORD yes
+
+COPY database/ /docker-entrypoint-initdb.d/
