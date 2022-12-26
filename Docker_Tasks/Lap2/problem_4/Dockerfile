@@ -14,13 +14,14 @@ ARG APP_VERSION=1.0
 
 ENV NODE_ENV production
 
-FROM alpine AS build
+RUN cd /
+
+WORKDIR /var/weather-app
 
 COPY . /var/weather-app
 
 EXPOSE 3000
 
-# run app
 ENTRYPOINT [".bin/www"]
 
-#CMD [ "npm", "start" ]
+CMD [ "npm", "start" ]
