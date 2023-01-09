@@ -21,7 +21,7 @@ leap_year()
 \---------------------------------------------------------------------------------------------------------/
 
 
-# another way to cheack years above 2000 only .
+# another way to cheack years equal or above 2000 only .
 
 def leap_year():
 
