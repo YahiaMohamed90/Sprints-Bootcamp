@@ -17,3 +17,21 @@ def leap_year():
  else:
     print("{0} is not a leap year".format(year))
 leap_year()
+
+\---------------------------------------------------------------------------------------------------------/
+
+
+# another way to cheack years above 2000 only .
+
+def leap_year():
+
+ while True :
+
+    year = int(input("Please Enter The year:  "))
+    if year < 2000:
+        print("Please Enter The year again: year should be above 2000 \n")
+    elif year > 2000:
+        print("{0} is a leap year".format(year)) if year%4==0 else print("{0} is not a leap year".format(year))
+        break
+
+leap_year()
